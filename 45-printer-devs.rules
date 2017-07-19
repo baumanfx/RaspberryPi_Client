@@ -1,0 +1,1 @@
+SUBSYSTEM="tty", ATTRS{idVendor}=="23c1", ATTRS{idProduct}=="b015", SYMLINK+="replicator2x", GROUP:="uucp"

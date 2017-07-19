@@ -1,0 +1,9 @@
+[Unit]
+Description=Daemon/Client for 3D Printing Service
+
+[Service]
+User=p_client
+ExecStart=/opt/client_repo/client.sh
+
+[Install]
+WantedBy=multi-user.target 

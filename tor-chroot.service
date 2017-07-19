@@ -1,0 +1,13 @@
+[Unit]
+Description=Chrooted TOR client
+
+[Service]
+User=root
+ExecStart=
+ExecStart=/usr/bin/sh -c "chroot --userspec=tor:tor /mount_rw/torchroot /usr/bin/tor -f /etc/tor/torrc"
+KillSignal=SIGINT
+
+[Install]
+WantedBy=multi-user.target 
+
+

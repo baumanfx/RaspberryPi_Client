@@ -1,0 +1,1 @@
+SUBSYSTEM=="usb", ATTRS{idVendor}=="F055", ATTRS{idProduct}=="5053", SYMLINK+="sensoradaptor", GROUP="uucp"

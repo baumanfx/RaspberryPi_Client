@@ -1,0 +1,9 @@
+[Unit]
+Description=Install Script for Printing Service Client
+
+[Service]
+User=root
+ExecStart=/usr/local/bin/base-install.sh
+
+[Install]
+WantedBy=multi-user.target 

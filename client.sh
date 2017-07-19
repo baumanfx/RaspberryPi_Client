@@ -1,5 +1,13 @@
 #!/bin/bash
 
+########################################################################
+# Client script to retrieve work package instructions
+# from a server.
+# Felix W. Baumann
+# 2017-07-19
+# CC-BY
+########################################################################
+
 MAIN_SCRIPT_NAME=$0
 MAIN_SCRIPT_HASH=""
 
